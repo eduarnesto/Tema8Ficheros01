@@ -1,4 +1,4 @@
-package ejercicio01;
+package ejercicio02;
 
 import java.io.FileNotFoundException;
 import java.io.FileReader;
@@ -13,7 +13,7 @@ public class Principal {
 		Scanner sc = null;
 		
 		try {
-			 sc = new Scanner(new FileReader("src/ejercicio01/NumerosReales.txt"));
+			 sc = new Scanner(new FileReader("src/ejercicio02/Enteros.txt"));
 		} catch (FileNotFoundException e) {
 			e.printStackTrace();
 		}
