@@ -14,7 +14,7 @@ public class Principal {
 		Scanner sc = new Scanner (System.in);
 		
 		try {
-			bw = new BufferedWriter(new FileWriter("src/ejercicio05/datos.txt", true));
+			bw = new BufferedWriter(new FileWriter("src/ejercicio05/Datos.txt", true));
 			System.out.println("Introduzca un nombre");
 			nombre = sc.nextLine();
 			
@@ -33,6 +33,8 @@ public class Principal {
 			}
 		}
 
+		System.out.println("Fin");
+		
 		sc.close();
 	}
 
